@@ -1,0 +1,87 @@
+h2 {
+	color: white;
+	font-family: "Berkshire Swash"
+}
+
+a:hover {
+	color: #f1ed56;
+}
+
+
+p {
+	color: #BBCBCB;
+	font-size: 17px;
+	font-family: "Times New Roman"
+}
+li {
+	display: inline;
+	padding: 5px;
+	color: #E5FFDE;
+	text-transform: uppercase;
+	font-family: ¨Berkshire Swash¨ 
+}
+
+li:hover {
+	background-color: #f1ed56;
+	color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul {
+	background-color: #9590A8;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+body {
+	background-color: #20102b;
+}
+
+
+#one {
+	float:left; 
+    width:500px;
+    margin-left: 100px;
+}
+
+#two {
+ 	float: right; 
+ 	width: 500px;
+ 	margin-right: 100px;
+}
+
+.centered {
+	text-align: center;
+	color: white;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 100px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+	color: white;
+	margin-top: 350px;
+	background-color: #9590A8;
+	padding: 0.5px 100px;
+}
